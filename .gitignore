@@ -1,5 +1,5 @@
 # Logs
-logs
+# Logs and debug files generated during development or execution.
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +7,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+# Node.js module installations.
+node_modules/ # Use trailing slash for directories to avoid matching similarly named files
+
+# Build artifacts
+# Compiled output for production or deployment.
+dist/
+dist-ssr/
+build/ # Add if your build process creates a 'build' folder (e.g., Create React App)
+
+# Environment Variables and Local Configuration
+# Files containing sensitive data or local development settings.
+.env # Example: .env, .env.development, .env.production
+.env.*.local # For environments like .env.production.local
+.local # Already present, but .env is a common addition
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Editor-specific configurations and temporary files.
+.vscode/ # VS Code configuration directory
+!.vscode/extensions.json # Exception: keep recommended extensions file
+.idea/ # IntelliJ IDEA / WebStorm configuration directory
+.DS_Store # macOS specific file
+Thumbs.db # Windows specific thumbnail cache
+
+# Visual Studio / IDE-specific temporary files (if applicable)
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw? # Vim swap files
