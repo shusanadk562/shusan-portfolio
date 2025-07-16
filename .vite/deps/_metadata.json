@@ -1,64 +1,8 @@
 {
-  "hash": "6b6c2de5",
-  "configHash": "362197af",
-  "lockfileHash": "69d69e35",
-  "browserHash": "60708c33",
-  "optimized": {
-    "react": {
-      "src": "../../node_modules/react/index.js",
-      "file": "react.js",
-      "fileHash": "60a06494",
-      "needsInterop": true
-    },
-    "react-dom/client": {
-      "src": "../../node_modules/react-dom/client.js",
-      "file": "react-dom_client.js",
-      "fileHash": "f9dca460",
-      "needsInterop": true
-    },
-    "@vercel/analytics/react": {
-      "src": "../../node_modules/@vercel/analytics/dist/react/index.mjs",
-      "file": "@vercel_analytics_react.js",
-      "fileHash": "5238cdb3",
-      "needsInterop": false
-    },
-    "react-router-dom": {
-      "src": "../../node_modules/react-router-dom/dist/index.js",
-      "file": "react-router-dom.js",
-      "fileHash": "f74958c1",
-      "needsInterop": false
-    },
-    "typewriter-effect": {
-      "src": "../../node_modules/typewriter-effect/dist/react.js",
-      "file": "typewriter-effect.js",
-      "fileHash": "3f259078",
-      "needsInterop": true
-    },
-    "react-icons/fa": {
-      "src": "../../node_modules/react-icons/fa/index.esm.js",
-      "file": "react-icons_fa.js",
-      "fileHash": "f1a81558",
-      "needsInterop": false
-    },
-    "styled-components": {
-      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
-      "file": "styled-components.js",
-      "fileHash": "e87438c9",
-      "needsInterop": false
-    },
-    "react-scroll": {
-      "src": "../../node_modules/react-scroll/modules/index.js",
-      "file": "react-scroll.js",
-      "fileHash": "8c1449cc",
-      "needsInterop": true
-    }
-  },
-  "chunks": {
-    "chunk-PWZSRT5W": {
-      "file": "chunk-PWZSRT5W.js"
-    },
-    "chunk-UTEJFLXC": {
-      "file": "chunk-UTEJFLXC.js"
-    }
-  }
+  "hash": "89723f91",
+  "configHash": "45dddd3c",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "b71d8979",
+  "optimized": {},
+  "chunks": {}
 }
