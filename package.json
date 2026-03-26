@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build && cp CNAME dist/CNAME",
+    "deploy": "gh-pages -d dist -r https://github.com/shusanadk562/shusan-portfolio.git"
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
