@@ -5,12 +5,11 @@
   "type": "module",
   "homepage": "https://www.shusanadhikari.com.np",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist -r https://github.com/shusanadk562/shusan-portfolio.git"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
     "@vercel/speed-insights": "^1.0.2",
