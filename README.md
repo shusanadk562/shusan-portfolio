@@ -79,16 +79,6 @@ This portfolio was created to:
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./screenshots/home.png" width="30%" />
-  <img src="./screenshots/projects.png" width="30%" />
-  <img src="./screenshots/contact.png" width="30%" />
-</p>
-
----
-
 ## 🚀 Future Improvements
 
 * Add animations and micro-interactions
